@@ -1,1 +1,1 @@
-
+This folder contains my final project for CSC 1060 Computer Science I: (C++). I completed this course through Front Range Community College during my senior year at Loveland High School (2022-2023). For this project, I created a hangman game complete with ASCII art visuals file I/O, output formatting, and was created to demonstrate my understanding of the features of C++ such as strings, arrays, for loops, if statements, switch statements, functions, etc.
