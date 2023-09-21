@@ -57,6 +57,7 @@ int fails = 0;
 
 int main()
 {
+
 	
 	getInfo();
 	menu();
@@ -372,7 +373,8 @@ TOTAL CHARACTERS GUESSED
 void getInfo() {
 	//Requirement 6
 	inputFile.open("statistics.txt");
-	for (int i = 0; !inputFile.eof(); i++) {
+
+	for (int i = 0; (!(inputFile.eof()) && inputFile); i++) {
 		inputFile >> statistics[i];
 	}
 	inputFile.close();
